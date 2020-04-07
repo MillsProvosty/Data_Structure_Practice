@@ -36,39 +36,28 @@ class TreeTest {
                 assertNotEquals(node2.left.value, 40);
         }
 
-//        @Test
-//        void canNodesBeTraversed() {
-//
-//                //given
-//                final Tree.Node node3 = new Tree.Node(50);
-//                final Tree tree3 = new Tree(node3);
-//
-//
-//                //when
-//                tree3.insert(node3,10);
-//                tree3.insert(node3,20);
-//                tree3.insert(node3,30);
-//                tree3.insert(node3,40);
-//                tree3.insert(node3,60);
-//
-//
-//                //then
-//                node3.traverseInOrder(node3);
-//        }
+        @Test
+        void canNodesBeTraversed() {
 
-//        @Test
-//        void doesTreeExist() {
-//           //given
-//           final Tree tree1 = new Tree(node)
-//        }
-//
-//        tree.insert(root, 2);
-//        tree.insert(root, 4);
-//        tree.insert(root, 8);
-//        tree.insert(root, 6);
-//        tree.insert(root, 7);
-//        tree.insert(root, 3);
-//        tree.insert(root, 9);
-//        System.out.println("Traversing tree in order");
-//        tree.traverseLevelOrder();
+                //given
+                final Tree.Node node3 = new Tree.Node(50);
+                final Tree tree3 = new Tree(node3);
+
+
+                //when
+                tree3.insert(node3,10);
+                tree3.insert(node3,20);
+                tree3.insert(node3,30);
+                tree3.insert(node3,40);
+                tree3.insert(node3,60);
+                tree3.insert(node3,70);
+                tree3.insert(node3,80);
+                tree3.insert(node3,90);
+                tree3.insert(node3,100);
+
+
+
+                //then
+                tree3.traverseInOrder(node3);
+        }
 }
