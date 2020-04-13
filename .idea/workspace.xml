@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e600a3aa-b72b-4e12-b49a-77194d49168f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structure_Practice/BinaryTree/Tree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Structure_Practice/BinaryTree/Tree$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Data_Structure_Practice/BinaryTree/Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Structure_Practice/BinaryTree/Tree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Data_Structure_Practice/BinaryTree/TreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data_Structure_Practice/BinaryTree/TreeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BinaryTree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTree/TreeTest.java" afterDir="false" />
@@ -52,8 +54,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.canNodesBeTraversed">
-    <configuration name="NodeTest.canNodesBeTraversed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TreeTest.canDeleteNode">
+    <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_Practice" />
       <extension name="coverage">
         <pattern>
@@ -62,14 +64,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BinaryTree" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.NodeTest" />
-      <option name="METHOD_NAME" value="canNodesBeTraversed" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.TreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTest.canYouAddNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.canDeleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_Practice" />
       <extension name="coverage">
         <pattern>
@@ -78,24 +79,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="BinaryTree" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.NodeTest" />
-      <option name="METHOD_NAME" value="canYouAddNodes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NodeTest.doesNodeAndValueExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data_Structure_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BinaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BinaryTree" />
-      <option name="MAIN_CLASS_NAME" value="BinaryTree.NodeTest" />
-      <option name="METHOD_NAME" value="doesNodeAndValueExist" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.TreeTest" />
+      <option name="METHOD_NAME" value="canDeleteNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.doesNodeAndValueExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.canReturnNullRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data_Structure_Practice" />
       <extension name="coverage">
         <pattern>
@@ -127,7 +112,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="BinaryTree" />
       <option name="MAIN_CLASS_NAME" value="BinaryTree.TreeTest" />
-      <option name="METHOD_NAME" value="doesNodeAndValueExist" />
+      <option name="METHOD_NAME" value="canReturnNullRoot" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TreeTest.canReturnRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data_Structure_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BinaryTree" />
+      <option name="MAIN_CLASS_NAME" value="BinaryTree.TreeTest" />
+      <option name="METHOD_NAME" value="canReturnRoot" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.canDeleteNode" />
+        <item itemvalue="JUnit.TreeTest" />
+        <item itemvalue="JUnit.TreeTest.canReturnRoot" />
+        <item itemvalue="JUnit.TreeTest.canReturnNullRoot" />
         <item itemvalue="JUnit.TreeTest.canNodesBeTraversed" />
-        <item itemvalue="JUnit.TreeTest.doesNodeAndValueExist" />
-        <item itemvalue="JUnit.NodeTest.canNodesBeTraversed" />
-        <item itemvalue="JUnit.NodeTest.canYouAddNodes" />
-        <item itemvalue="JUnit.NodeTest.doesNodeAndValueExist" />
       </list>
     </recent_temporary>
   </component>
@@ -165,22 +166,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom" timestamp="1586280471093">
+    <state width="1398" height="123" key="GridCell.Tab.0.bottom" timestamp="1586813153878">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586280471093" />
-    <state width="1398" height="290" key="GridCell.Tab.0.center" timestamp="1586280471092">
+    <state width="1398" height="123" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1586813153878" />
+    <state width="1398" height="123" key="GridCell.Tab.0.center" timestamp="1586813153877">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586280471092" />
-    <state width="1398" height="290" key="GridCell.Tab.0.left" timestamp="1586280471092">
+    <state width="1398" height="123" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1586813153877" />
+    <state width="1398" height="123" key="GridCell.Tab.0.left" timestamp="1586813153877">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586280471092" />
-    <state width="1398" height="290" key="GridCell.Tab.0.right" timestamp="1586280471093">
+    <state width="1398" height="123" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1586813153877" />
+    <state width="1398" height="123" key="GridCell.Tab.0.right" timestamp="1586813153877">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586280471093" />
+    <state width="1398" height="123" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1586813153877" />
     <state x="424" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585929850650">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
